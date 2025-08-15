@@ -11,13 +11,13 @@ url = f"https://newsapi.org/v2/everything?q=Apple&from=2025-07-31&sortBy=popular
 response = requests.get(url)
 content = response.json() 
 print("=== Response Object ===")
-print(response)
+# print(response)
 
 print("\n=== Status Code ===")
 print(response.status_code)
 
 print("\n=== JSON Response ===")
-print(content)
+# print(content)
 
 print("\n=== Articles ===")
-print(content['articles'])
+# print(content['articles'])
