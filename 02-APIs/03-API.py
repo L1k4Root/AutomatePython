@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 import requests
 from bs4 import BeautifulSoup as bs
+
 app = Flask(__name__)
 
 def get_rates(input_currency, output_currency, amount):
